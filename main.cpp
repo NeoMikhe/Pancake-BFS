@@ -16,11 +16,6 @@ void flip(char arr[], int i){
     }
 }
 
-void printArray(char arr[], int n){
-    for (int i = 0; i < n; ++i)
-        std::cout << arr[i];
-}
-
 std::string bfs(std::string start, std::string end, int& count){
     std::queue<std::string> q;
     std::set<std::string> visited;
